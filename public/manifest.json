@@ -1,0 +1,26 @@
+{
+  "short_name": "Pantry",
+  "name": "Pantry - Recipe Catelog",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "logo192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "logo512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#2D6A4F",
+  "background_color": "#FAFAF8",
+  "description": "Pantry is a recipe catalog application that allows users to store and organize their favorite recipes. With Pantry, you can easily add new recipes, categorize them, and search for specific dishes. Whether you're a seasoned chef or just starting out in the kitchen, Pantry is the perfect tool to help you keep all your recipes in one place."
+}
