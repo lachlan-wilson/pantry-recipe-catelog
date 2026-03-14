@@ -1,10 +1,12 @@
-function RecipeCard(recipe) {
+import "../CSS/RecipeCard.css";
+
+function RecipeCard({recipe}) {
     return (
         <div className="recipe-card">
-            <h3>recipe.weekday</h3>
-            <div className="image+overlay">
-                <img src={recipe.image} alt={recipe.name} />
-                <h2>recipe.name</h2>
+            <img src={recipe.imageUrl} alt={recipe.name}/>
+            <div className="contents">
+                <h3>{recipe.weekday}</h3>
+                <h2>{recipe.name}</h2>
             </div>
         </div>
     )

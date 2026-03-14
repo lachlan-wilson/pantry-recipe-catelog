@@ -1,0 +1,42 @@
+.recipe-card {
+    margin-left: 20px;
+    margin-right: 20px;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    width: 80%;
+    aspect-ratio: 16/9;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.recipe-card img {
+    width: 100%;
+    object-fit: cover;
+    justify-self: middle;
+}
+
+.contents {
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: left;
+    padding: 20px;
+}
+
+.contents h2 {
+    font-size: 24px;
+    color: black;
+    font-weight: 800;
+    padding: 0;
+    line-height: 0%;
+}
+
+.contents h3 {
+    font-size: 20px;
+    color: black;
+    font-weight: 400;
+    padding: 0;
+    line-height: 0%;
+}
