@@ -1,0 +1,15 @@
+.header{
+    margin: 0 auto;
+    padding: 0;
+    width: 90%;
+    border: none;
+    border-top: 2px solid black;
+}
+
+.title{
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 50px;
+    color: black;
+}
